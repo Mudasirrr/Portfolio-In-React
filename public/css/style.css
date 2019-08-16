@@ -233,14 +233,15 @@ figure {
       padding: 0 1em; } }
 
 #colorlib-hero {
-  min-height: 500px;
+  min-height: 300px;
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
   margin-bottom: 2em;
-  clear: both; }
+  clear: both;
+  color: white; }
   #colorlib-hero .flexslider {
-    border: none;
+    border:aliceblue;
     z-index: 1;
     margin-bottom: 0; }
     #colorlib-hero .flexslider .slides {
@@ -250,10 +251,10 @@ figure {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom center;
-        min-height: 400px;
+        min-height: 0px;
         position: relative; }
     #colorlib-hero .flexslider .flex-control-nav {
-      bottom: 20px;
+      bottom: 0px;
       z-index: 1000;
       left: 20px;
       float: left;
@@ -295,7 +296,7 @@ figure {
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
           padding: 0;
-          color: black;
+          color:purple;
           font-family: "Playfair Display", Georgia, serif; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
@@ -329,20 +330,20 @@ figure {
           font-size: 12px;
           text-transform: uppercase;
           letter-spacing: 2px;
-          color: #000;
+          color:whitesmoke;
           padding: 10px 15px !important;
           border: none;
           font-weight: 400; }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
-            color: #000;
-            border: 1px solid #000;
+            color: white;
+            border: 3px solid rgb(114, 9, 9);
             background: transparent !important; }
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
               background: transparent !important;
-              border: 1px solid #000 !important; }
-          @media screen and (max-width: 768px) {
+              border: 3px solid #000 !important; }
+          @media screen and (max-width: 408px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
-              width: 100%; } }
+              width: 1000%; } }
 
 body.offcanvas {
   overflow-x: hidden; }
@@ -386,7 +387,7 @@ body.offcanvas {
   padding-bottom: 2em;
   clear: both;
   width: 100%;
-  display: block; }
+   }
   @media screen and (max-width: 768px) {
     .colorlib-experience,
     .colorlib-skills,
